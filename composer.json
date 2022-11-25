@@ -1,5 +1,5 @@
 {
-  "name": "protung/easyadmin-plus-bundle",
+  "name": "evotide/easyadmin-plus-bundle",
   "description": "This bundle provides some extensions to easycorp/easyadmin-bundle",
   "license": "MIT",
   "type": "symfony-bundle",
@@ -53,6 +53,9 @@
     "psalm/plugin-symfony": "^3.1.10",
     "speicher210/functional-test-bundle": "^2.x-dev",
     "vimeo/psalm": "^4.29"
+  },
+  "replace": {
+    "protung/easyadmin-plus-bundle": "*"
   },
   "suggest": {
     "speicher210/functional-test-bundle": "For testing support."
