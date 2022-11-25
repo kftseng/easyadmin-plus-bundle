@@ -1,5 +1,5 @@
 {
-  "name": "protung/easyadmin-plus-bundle",
+  "name": "evotide/easyadmin-plus-bundle",
   "description": "This bundle provides some extensions to easycorp/easyadmin-bundle",
   "license": "MIT",
   "type": "symfony-bundle",
@@ -75,6 +75,9 @@
     },
     "preferred-install": "dist",
     "sort-packages": true
+  },
+  "replace": {
+    "protung/easyadmin-plus-bundle": "*"
   },
   "extra": {
     "composer-normalize": {
