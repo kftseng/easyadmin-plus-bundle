@@ -27,7 +27,7 @@
     "php": "^8.0",
     "ext-dom": "*",
     "azjezz/psl": "^1.9.3",
-    "easycorp/easyadmin-bundle": "~4.0.4",
+    "easycorp/easyadmin-bundle": "^4.4",
     "symfony/asset": "^5.4",
     "symfony/cache": "^5.4",
     "symfony/config": "^5.4",
@@ -80,6 +80,10 @@
     "composer-normalize": {
       "indent-size": 2,
       "indent-style": "space"
+    },
+    "symfony": {
+      "allow-contrib": false,
+      "require": "5.4.*"
     }
   },
   "scripts": {
